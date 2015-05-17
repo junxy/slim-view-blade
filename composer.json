@@ -1,6 +1,13 @@
 {
     "name": "junxy/slim-view-blade",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/junxy/slim-blade"
+        }
+    ],
     "require": {
-        "slim/slim": "~2.6"
+        "slim/slim": "~2.6",
+        "clickcoder/slim-blade": "dev-master"
     }
 }
